@@ -160,14 +160,23 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 96px 20%;
-    gap: 64px;
-    background-color: #1f2937;
+    background-color: #3882f6;
     color: #e5e7eb;
-    padding: 32px 96px;
+    gap: 2.4rem;
     border-radius: 10px;
-}
-
+    padding: 3.2rem 4.8rem;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .action-btn {
+    border: 1px solid white;
+  }
+  
+  .action-btn:hover {
+    zoom: 1.05;
+  
+  }
 footer {
     color: #e5e7eb;
     position: static;
