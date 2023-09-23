@@ -1,12 +1,17 @@
 @font-face {
   font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Roboto";
   src: url(../fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../fonts/Roboto-Bold.tff) format("truetype");
+  font-family: "Roboto-bolder";
+  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bolder;
 }
 
@@ -17,7 +22,7 @@
 }
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: "Roboto";
 }
 
 header {
@@ -78,6 +83,13 @@ ul li {
   height: 60vh;
   margin-top: 10p;
   z-index: -1000;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  text-decoration: none;
+  color: #e5e7eb;
+  cursor: pointer;
 }
 .hero {
   width: 500px;
