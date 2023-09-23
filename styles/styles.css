@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-light";
   src: url(../fonts/Roboto-Medium.ttf) format("truetype");
   font-weight: lighter;
 }
@@ -66,24 +66,16 @@ footer {
   font-weight: 100;
 }
 
-.navbar-link:link,
-.navbar-link:visited {
+.navbar-link{
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
 }
-ul {
-  display: flex;
-  gap: 32px;
-  justify-content: center;
-  align-items: center;
-}
 
-ul li {
-  list-style: none;
-  font-size: 18px;
-  color: #e5e7eb;
-}
+.navbar-link:hover {
+  color: #3882f6;
+} 
+
 h1 {
   font-size: 48px;
   /* text-transform: uppercase; */
@@ -103,10 +95,10 @@ h1 {
 }
 
 .hero {
-  max-width: 80rem;
+  /* max-width: 80rem; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   padding: 0 3.2rem;
   gap: 9.6rem;
   margin-top: 9.6rem;
@@ -117,7 +109,7 @@ h1 {
 }
 
 .hero-text-box {
-  flex: 300px;
+  flex: 200px;
   /* width: 100%; */
 }
 
@@ -132,17 +124,22 @@ h1 {
   margin-bottom: 1.2rem;
   font-size: 16px;
   font-weight: 100;
+  font-family: 'Robot-light', sans-serif;
+  line-height: 1.5;
 }
 
 .hero-image {
   width: 100%;
 }
 
-.btn-link:link,
-.btn-link:visited {
+.btn-link{
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
+}
+
+.btn-link:hover {
+  color: #3882f6;
 }
 
 .btn {
@@ -205,16 +202,20 @@ h1 {
 
 .inspiration {
   color: #1f2937;
-  font-size: 48px light italic;
+  font-size: 36px;
+  font-family: 'Robot-light',sans-serif;
+  line-height: 1.3;
   font-style: italic;
-  line-height: 1.7;
+  font-weight: lighter;
   padding: 0.8rem 1.2rem;
 }
 
 .author {
   position: absolute;
-  font-size: 16px;
-  font-weight: bolder;
+  font-family: 'Robot',sans-serif;
+  color: #1f2937;
+  font-size: 20px;
+  font-weight:800;
   bottom: -0.5rem;
   right: 4.8rem;
   z-index: 900;
@@ -252,10 +253,11 @@ footer {
   margin-top: 100px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   h1 {
     text-align: center;
   }
+
 
   .header {
     display: flex;
@@ -265,6 +267,7 @@ footer {
     height: 30vh;
     position: inherit;
     /* margin-bottom: 6.2rem; */
+    padding-left: 1rem;
   }
 
   .navbar {
@@ -315,7 +318,7 @@ footer {
   }
 
   .inspiration {
-    font-size: 1rem;
+    font-size: 16px;
     display: inline-block;
     line-height: 1;
     /* padding: 8px 12px; */

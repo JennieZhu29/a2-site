@@ -188,14 +188,29 @@ footer {
 }
 
 /* Media query for screens smaller than 600px */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
+    .hero {
+        padding: 0 20px;
+    }
+
     .hero-section {
-        padding-top: 200px;
         flex-direction: column;
         height: 100vh;
+
     }
 
     .hero-image {
-        width: 600px;
+        width: 500px;
+        padding: 0 20px;
+    }
+
+    .call-section {
+        display: block;
+        /* width: 100%; */
+        padding-right: 20px;
+    }
+
+    .call-action {
+        padding-bottom: 20px;
     }
 }
