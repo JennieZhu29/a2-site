@@ -185,6 +185,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 /* Media query for screens smaller than 600px */
