@@ -189,6 +189,11 @@ footer {
 
 /* Media query for screens smaller than 600px */
 @media (max-width: 700px) {
+    .header {
+        padding-left: 20px;
+        position: fixed;
+    }
+
     .hero {
         padding: 0 20px;
     }
