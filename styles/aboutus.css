@@ -84,6 +84,13 @@ ul li {
   margin-top: 10p;
   z-index: -1000;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar li {
+  list-style: none;
+}
 
 .navbar-link:link,
 .navbar-link:visited {
