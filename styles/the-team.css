@@ -21,6 +21,11 @@
     box-sizing: border-box;
 }
 
+.header,
+footer{
+  background-color: #1f2937;
+}
+
 body {
     font-family: "Roboto";
 }
@@ -36,48 +41,36 @@ body {
     gap: 9.6rem;
   }
   
-  header h3 {
+header h3 {
     font-size: 24px;
     color: #f9faf8;
   }
-  .nav-item {
+.nav-item {
     width: 100%;
     min-width: 130px;
     font-size: 20px;
     font-weight: 100;
   }
-  .navbar {
+.navbar {
     display: flex;
     align-items: center;
   }
-  .navbar li {
+.navbar li {
     list-style: none;
   }
-  
-  .main-navbar {
+.main-navbar {
     padding-right: 220px;
   }
   
-  .navbar-link:link,
-  .navbar-link:visited {
+.navbar-link:link,
+.navbar-link:visited {
     text-decoration: none;
     color: #e5e7eb;
     cursor: pointer;
   }
-
-ul {
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
-    list-style: none;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
+.navbar-link:hover {
+    color: #3882f6;
+  }
 .hero-section {
     background-color: #1f2937;
     display: flex;
