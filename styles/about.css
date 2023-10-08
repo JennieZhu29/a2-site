@@ -1,0 +1,38 @@
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #8547ff;
+
+}
+
+.card p {
+    font-size: 1em;
+}
