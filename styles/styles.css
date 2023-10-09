@@ -167,11 +167,12 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
+  /* margin-top: 5rem; */
 }
 
 .about-head {
   text-align: center;
-  margin-bottom: 3.6rem;
+  margin-bottom: 40px;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;

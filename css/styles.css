@@ -182,11 +182,12 @@ h1 {
   align-items: center;
   gap: 3.2rem;
 }
+
 .about-head {
   font-size: 2.4rem;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 3.6rem;
+  margin-bottom: 0rem;
   color: #1f2937;
 }
 
@@ -252,7 +253,7 @@ footer {
   margin-bottom: 0;
 }
 .story-section-page {
-  height: 50vh;
+  height: 40vh;
   /* max-width: 80rem; */
 }
 
@@ -262,6 +263,16 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 9.6rem 30rem;
+  gap: 4.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-section-div {
+  /* max-width: 80rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30rem;
   gap: 4.8rem;
   margin-bottom: 1.2rem;
 }
@@ -383,6 +394,8 @@ textarea {
   border-radius: 10px;
   padding: 1.2rem 1.6rem;
   margin-bottom: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 .submit {
