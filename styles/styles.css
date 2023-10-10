@@ -66,7 +66,7 @@ footer {
   font-weight: 100;
 }
 
-.navbar-link{
+.navbar-link {
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
@@ -74,7 +74,7 @@ footer {
 
 .navbar-link:hover {
   color: #3882f6;
-} 
+}
 
 h1 {
   font-size: 48px;
@@ -124,7 +124,7 @@ h1 {
   margin-bottom: 1.2rem;
   font-size: 16px;
   font-weight: 100;
-  font-family: 'Robot-light', sans-serif;
+  font-family: "Robot-light", sans-serif;
   line-height: 1.5;
 }
 
@@ -132,7 +132,7 @@ h1 {
   width: 100%;
 }
 
-.btn-link{
+.btn-link {
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
@@ -167,15 +167,14 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
-  /* margin-top: 5rem; */
 }
 
 .about-head {
   text-align: center;
-  margin-bottom: 40px;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  margin-bottom: 10rem;
 }
 
 .icon {
@@ -238,7 +237,6 @@ h1 {
 
 .action-btn:hover {
   zoom: 1.05;
-
 }
 
 footer {
@@ -257,12 +255,10 @@ footer {
   }
 }
 
-
 @media (max-width: 900px) {
   h1 {
     text-align: center;
   }
-
 
   .header {
     display: flex;
